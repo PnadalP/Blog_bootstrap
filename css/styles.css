@@ -106,6 +106,10 @@ main{
     padding: 0px 120px;
 }
 
+.posts{
+    text-align: center;
+}
+
 .post {
     max-width: 330px; 
     margin: 20px auto; 
@@ -116,12 +120,12 @@ main{
     position: relative; 
     z-index: 2;
     display:inline-block;
+    text-align: start;
 }
 
 .post h5{
     color: #000;
 }
-
 
 .card {
     width: 300px; /* Ajusta según tus necesidades */
@@ -131,8 +135,6 @@ main{
     font-family: Arial, sans-serif;
 }
 
-
-
 .color_span{
     color: #007bff;
 }
@@ -140,4 +142,78 @@ main{
 
 .primera_serie_de_posts{
     padding: 10;
+}
+.footer{
+    padding-top: 50px;
+    max-width: 1216px;
+    background-color: #97989f;
+    align-items: center;
+    display: contents;
+}
+
+.caja{
+    box-shadow: #000;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    padding-top: 10px ;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.col-2{
+    background-color: #f6f6f7;
+}
+
+.terminos{
+    text-align: end;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+
+.navbar-nav{
+    font-size:medium  ;
+}
+
+.Metablog{
+    justify-content: start;
+    margin-left: 20px;
+    text-align: start;
+}
+
+.About{
+    max-width: 330px; 
+    margin: 20px auto; 
+    padding: 15px; 
+    position: relative; 
+    z-index: 2;
+    display:inline-block;
+}
+
+.Doe{
+    background-color: #f6f6f7 ;
+    max-width: 1200px;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    margin-left: 340px;
+    margin-right: 50px;
+    right: -1000px;
+}
+
+.Doe-2{
+    max-width: 668px;
+    gap: 24px;
+    text-align: center;
+    margin-left: 200px;
+    align-content: center;
+}
+
+.Latest_post{
+    text-align: start;
+    margin-left: 300px;
 }
